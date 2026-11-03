@@ -31,15 +31,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           {localeFlashGuard}
         </Script>
         <LanguageProvider>{children}</LanguageProvider>
-        <script
-          src="https://rag-studio-v1.vercel.app/widget.js"
-          data-chatbot-id="bot_3x7zdiqn"
-          data-color="#eab308"
-          data-position="bottom-right"
-          data-welcome="Hi! Ask me anything about our help center."
-          data-domains="www.kosign.com.kh"
-          async
-        ></script>
       </body>
     </html>
   );
