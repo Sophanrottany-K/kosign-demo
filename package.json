@@ -9,13 +9,16 @@
   },
   "dependencies": {
     "next": "16.4.4",
+    "postprocessing": "^6.35.3",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "three": "^0.160.0"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/three": "^0.160.0",
     "prettier": "3.9.10",
     "typescript": "^5"
   }
