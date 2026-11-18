@@ -31,6 +31,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           {localeFlashGuard}
         </Script>
         <LanguageProvider>{children}</LanguageProvider>
+        <script
+          src="https://ragstudio.kshrd.app/widget.js"
+          data-ragstudio-token="QXLUFPgNrv156jqIusiBLg98SvH-c0rj3gaMrEBzXl8"
+          async
+        ></script>
       </body>
     </html>
   );
