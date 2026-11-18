@@ -33,7 +33,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <LanguageProvider>{children}</LanguageProvider>
         <script
           src="https://ragstudio.kshrd.app/widget.js"
-          data-ragstudio-token="QXLUFPgNrv156jqIusiBLg98SvH-c0rj3gaMrEBzXl8"
+          data-ragstudio-token="_456bEX0dWGbEWDPOQzCLMYTgvQy42Oz2GBv5snAJXY"
           async
         ></script>
       </body>
